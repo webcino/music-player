@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.icons8.com/nolan/64/earbud-headphones.png">
+    <title>Music Player</title>
+</head>
+<body>
+    <h1 style="color: white;">Music Player</h1>
+
+    <div class="music-container">
+        <div class="music-info">
+            <h4 id="title">Nicki Minaj - Super Bass</h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <audio src="./music/music/nicki_minaj_super_bass_mp3_26964.mp3" id="audio"></audio>
+
+        <div class="img-container">
+            <img src="./music/nicki.jpg" alt="music-cover" id="cover" width="100px" height="100px">
+        </div>
+
+        <div class="navigation">
+            <button id="prev" class="action-btn">
+              <i class="fa fa-backward"></i> 
+              <!-- <img src="https://img.icons8.com/office/20/000000/back.png"/>-->
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+               <i class="fa fa-play"></i>
+               <!-- <img src="https://img.icons8.com/nolan/30/play.png"/>-->  
+            </button>
+            <button id="next" class="action-btn">
+               <i class="fa fa-forward"></i>
+               <!-- <img src="https://img.icons8.com/office/20/000000/forward--v1.png"/>-->
+            </button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
